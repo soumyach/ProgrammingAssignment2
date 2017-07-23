@@ -1,6 +1,11 @@
 
- #to find the inverse of a matrix using solve and to cache the result
- makeCacheMatrix <- function(x = matrix()) {
+#to find the inverse of a matrix using solve and to cache the result
+
+# makeCacheMatrix is used to create a matrix and to find the inverse of the matrix 
+#using solve function to find the inverse 
+ 
+
+makeCacheMatrix <- function(x = matrix()) {
          p <- null
          setMat <- function(newmat) {
                  #setMat is used to set the value of the matrix
@@ -23,7 +28,7 @@
   }
  
  
-
+#cacheSolve is used to Cache the inverse of the matrix.
  
  cacheSolve <- function(x, ...) {
       p <- x$getInverse()
